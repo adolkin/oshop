@@ -51,7 +51,7 @@ export class ShoppingCartService {
       item$.update({ 
         title: product.title,
         imageUrl: product.imageUrl,
-        price: product. price,
+        price: product.price,
         quantity: (item.quantity || 0) + change 
       });
     });
