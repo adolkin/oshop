@@ -1,4 +1,4 @@
-import { ShoppingCart } from "app/models/shopping-cart";
+import { ShoppingCart } from "shared/models/shopping-cart";
 
 export class Order {
   datePlaced: number;
