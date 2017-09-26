@@ -12,4 +12,8 @@ export class OrderService {
     this.shoppingCartService.clearCart();
     return result;
   }
+
+  getOrder() {
+    return this.db.list('/orders');
+  }
 }
